@@ -48,7 +48,7 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
           <div class="form-group">
               <strong>Valor:</strong>
-              <input type="number" name="valor" class="form-control" placeholder="Valor">
+              <input type="number" step="0.01" name="valor" class="form-control" placeholder="Valor">
           </div>
       </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">

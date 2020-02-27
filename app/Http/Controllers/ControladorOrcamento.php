@@ -55,9 +55,9 @@ class ControladorOrcamento extends Controller
      * @param  \App\Orcamento  $orcamento
      * @return \Illuminate\Http\Response
      */
-    public function show(Orcamento $orcamento)
+    public function show()
     {
-        return view('orcamentos.show', compact('orcamento'));
+        return view('orcamentos.show');
     }
 
     /**

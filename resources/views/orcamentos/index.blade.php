@@ -7,7 +7,7 @@
                 <h2>Oficina 2.0</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-white" href="{{ route('orcamentos.create') }}" title="Pesquisar Orçamento">&#128270;</a>
+                <a class="btn btn-white" href="/orcamentos/show" title="Pesquisar Orçamento">&#128270;</a>
                 <a class="btn btn-success" href="{{ route('orcamentos.create') }}"> Cadastrar Novo Orçamento</a>
             </div>
         </div>
