@@ -14,5 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
+Route::get('/search','ControladorOrcamento@search');
 Route::resource('orcamentos','ControladorOrcamento');
+
+
+

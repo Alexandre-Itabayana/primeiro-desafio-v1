@@ -7,7 +7,7 @@
             <h2>Adicionar Orçamento</h2>
         </div>
         <div class="pull-right">
-            <a class="btn btn-primary" href="{{ route('orcamentos.index') }}"> Back</a>
+            <a class="btn btn-primary" href="{{ route('orcamentos.index') }}"> Voltar</a>
         </div>
     </div>
 </div>
